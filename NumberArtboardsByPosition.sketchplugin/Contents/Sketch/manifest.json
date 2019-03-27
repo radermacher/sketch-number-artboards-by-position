@@ -6,8 +6,10 @@
     "authorEmail" : "richard.radermacher@gmail.com",
     "identifier" : "io.radermacher.sketch.number-artboards-by-position",
     "version" : "0.1.0",
-    "compatibleVersion": "3",
+    "compatibleVersion": 3,
     "bundleVersion": 1,
+    "icon": "icon.png",
+    "appcast": "https://raw.githubusercontent.com/radermacher/sketch-number-artboards-by-position/master/appcast.xml",
     "commands" : [
         {
             "name" : "Left to Right",
