@@ -1,6 +1,6 @@
 # sketch-number-artboards-by-position
 
-![Screenshot](screenshot.png?raw=true)
+![screenshot](https://user-images.githubusercontent.com/1656843/55098920-1a327200-50bf-11e9-97ed-817c567364f1.png)
 
 ## Installation
 
