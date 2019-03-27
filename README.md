@@ -1,5 +1,7 @@
 # sketch-number-artboards-by-position
 
+![Screenshot](sample.png)
+
 ## Installation
 
 ### Download the zip
