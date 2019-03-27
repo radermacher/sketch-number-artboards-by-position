@@ -1,0 +1,50 @@
+{
+    "name" : "Number Artboards by Position",
+    "description" : "Sketch plugin to number artboards in order of position",
+    "homepage": "https://github.com/radermacher/sketch-number-artboards-by-position",
+    "author" : "Richard Radermacher",
+    "authorEmail" : "richard.radermacher@gmail.com",
+    "identifier" : "io.radermacher.sketch.number-artboards-by-position",
+    "version" : "0.1.0",
+    "compatibleVersion": "3",
+    "bundleVersion": 1,
+    "commands" : [
+        {
+            "name" : "Left to Right",
+            "identifier" : "lefttoright",
+            "shortcut": "command shift →",
+            "script" : "lefttoright.js",
+            "handlers" : "onRun"
+        },
+        {
+            "name" : "Right to Left",
+            "identifier" : "righttoleft",
+            "shortcut": "command shift ←",
+            "script" : "righttoleft.js",
+            "handlers" : "onRun"
+        },
+        {
+            "name" : "Top to Bottom",
+            "identifier" : "toptobottom",
+            "shortcut": "command shift ↓",
+            "script" : "toptobottom.js",
+            "handlers" : "onRun"
+        },
+        {
+            "name" : "Bottom to Top",
+            "identifier" : "bottomtotop",
+            "shortcut": "command shift ↑",
+            "script" : "bottomtotop.js",
+            "handlers" : "onRun"
+        }
+    ],
+    "menu" : {
+        "title" : "Number Artboards by Position",
+        "items" : [
+            "toptobottom",
+            "lefttoright",
+            "bottomtotop",
+            "righttoleft"
+        ]
+    }
+}
